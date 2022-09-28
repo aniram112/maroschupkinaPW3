@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E363F88228E490F40087ACA1 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E363F88128E490F40087ACA1 /* ColorPaletteView.swift */; };
 		E3E12C4B28DAFFE300239049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E12C4A28DAFFE300239049 /* AppDelegate.swift */; };
 		E3E12C4D28DAFFE300239049 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E12C4C28DAFFE300239049 /* SceneDelegate.swift */; };
 		E3E12C4F28DAFFE300239049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E12C4E28DAFFE300239049 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E363F88128E490F40087ACA1 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 		E3E12C4728DAFFE300239049 /* maroschupkinaPW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maroschupkinaPW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E12C4A28DAFFE300239049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E12C4C28DAFFE300239049 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E3E12C5328DAFFE300239049 /* Assets.xcassets */,
 				E3E12C5528DAFFE300239049 /* LaunchScreen.storyboard */,
 				E3E12C5828DAFFE300239049 /* Info.plist */,
+				E363F88128E490F40087ACA1 /* ColorPaletteView.swift */,
 			);
 			path = maroschupkinaPW3;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3E12C4F28DAFFE300239049 /* ViewController.swift in Sources */,
+				E363F88228E490F40087ACA1 /* ColorPaletteView.swift in Sources */,
 				E3E12C4B28DAFFE300239049 /* AppDelegate.swift in Sources */,
 				E3E12C5F28DB05C800239049 /* UIViewPin.swift in Sources */,
 				E3E12C4D28DAFFE300239049 /* SceneDelegate.swift in Sources */,
@@ -287,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +320,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
